@@ -1,0 +1,107 @@
+/* removed padding and margin on page */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+img {
+  margin-top: 10px;
+}
+
+.main {
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  width: 1500px;
+}
+
+.search {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-input {
+  width: 300px;
+}
+
+.search p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.btn input {
+  appearance: auto;
+  width: 100px;
+  cursor: default;
+  padding: 1px 6px;
+  border-width: 2px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  width: 1500px;
+  justify-content: center;
+  gap: 2px;
+  margin-top: 2px;
+}
+
+.special-searches,
+.help,
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+}
+
+.special-searches {
+  width: 40%;
+  background-color: #7ee4da;
+}
+
+.help {
+  width: 20%;
+  font-size: 13px;
+  background-color: #6fccc2;
+}
+
+.subscribe {
+  width: 40%;
+  background-color: #62b3aa;
+}
+
+.subscribe p {
+  font-size: 13px;
+}
+
+.btn {
+  display: flex;
+  gap: 5px;
+}
+
+.btn > input {
+  padding: 1px 4px;
+}
+
+button {
+  width: 80px;
+  padding: 1px;
+}
+
+a {
+  color: #0000ed;
+}
